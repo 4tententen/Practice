@@ -4,5 +4,6 @@ name = "MArcin"
 # print(name.capitalize())
 # print(name.upper())
 # print(name.lower())
+# nic nowego
 
 print(name[o])
