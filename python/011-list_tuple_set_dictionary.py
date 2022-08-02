@@ -1,6 +1,5 @@
-# 
-# "data structures"
-# "list"
+#  "data structures"
+#  "list"
 
 # name_list = []
 # name_list.append("Marian")
@@ -10,10 +9,9 @@
 
 # print(name_list)
 
-names_list = ["Zbyszek", "Zbyszek", "Juzek", "Staszek", "Adam", "Mateusz", "Bartek", "Celina", "Daniel"]
-
+# names_list = ["Zbyszek", "Zbyszek", "Juzek", "Staszek", "Adam", "Mateusz", "Bartek", "Daniel"]
+# names_list2 = ["Anna", "Barbara", "Celina", "Danuta", "Ela", "Justyna"]
 # names_list.reverse()
- 
 # names_list.sort()
 
 # for name in names_list:
@@ -25,8 +23,31 @@ names_list = ["Zbyszek", "Zbyszek", "Juzek", "Staszek", "Adam", "Mateusz", "Bart
 
 # print(len(names_list))
 
-print(names_list)
-print()
-print(names_list.pop(0))
-print()
+# print(names_list)
+# print()
+# print(names_list.pop(0))
+# print()
+# print(names_list)
+
+# names_list.remove("Zbyszek")
+# print() 
+# print(names_list) 
+# print()
+
+# names_list.clear()
+# print(names_list)
+
+# names_list3 = names_list + names_list2 
+# # print(names_list3)
+
+# names_list3.sort(reverse=True)
+# print(names_list3)
+
+
+
+
+
+# Tuple - "Krotka"
+
+names_list = ("Zbyszek", "Zbyszek", "Juzek", "Staszek", "Adam", "Mateusz", "Bartek", "Daniel")
 print(names_list)
