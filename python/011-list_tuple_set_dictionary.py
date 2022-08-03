@@ -49,5 +49,43 @@
 
 # Tuple - "Krotka"
 
-names_list = ("Zbyszek", "Zbyszek", "Juzek", "Staszek", "Adam", "Mateusz", "Bartek", "Daniel")
-print(names_list)
+
+# person = ("John", "Rambo", "Marines", 39, "Brown", 177)
+# print(person)
+# print(len(person))
+# print(person.count("Rambo"))
+
+
+# Set - Zbior
+
+# names_set = {"Marek", "Juzek", "Bartek", "Juzek"}
+# # print(names_set)
+
+# names_set2 = set()
+# names_set2.add("Dorota")
+# names_set2.add("Monika")
+# names_set2.add("Justyna")
+# names_set2.add("Weronika")
+# # print(names_set2)
+
+# names_set2.remove("Dorota")
+# names_set2.discard("Monika")
+# # print(names_set2)
+
+# # for name in names_set2:
+#     # print(name)
+
+# names_set3 = names_set.union(names_set2)
+# # print(names_set3)
+
+
+# for name in names_set3:
+#     print(name)
+
+names_set1 = {"Mama", "Tata", "Dziadek"}
+names_set2 = {"Ciocia", "Kuzynka", "Mama", "Tata"}
+
+names_set3 = names_set1.update(names_set2)
+# print(names_set1)
+
+names_set3 = names_set1.difference(names_set2)
