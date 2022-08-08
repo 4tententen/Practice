@@ -31,7 +31,13 @@ def display_sum(a, b):
 def calculate_sum(a,b):
     return a+b  
 
-sum = calculate_sum(2,3)
-print(sum)
+def print_message():
+    print("Super Wiadomosc")
 
+def print_message():
+    print("Taka sobie informacja")
+
+sum = calculate_sum(2,3)
+print(sum) 
+print_message() 
 
