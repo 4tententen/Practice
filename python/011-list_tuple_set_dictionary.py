@@ -1,5 +1,5 @@
 #  "data structures"
-#  "list"
+##########  "list" - Lista ###########
 
 # name_list = []
 # name_list.append("Marian")
@@ -43,11 +43,7 @@
 # names_list3.sort(reverse=True)
 # print(names_list3)
 
-
-
-
-
-# Tuple - "Krotka"
+########### Tuple - "Krotka"  ##########
 
 
 # person = ("John", "Rambo", "Marines", 39, "Brown", 177)
@@ -56,7 +52,7 @@
 # print(person.count("Rambo"))
 
 
-# Set - Zbior
+##########  Set - Zbior  ##########
 
 # names_set = {"Marek", "Juzek", "Bartek", "Juzek"}
 # # print(names_set)
@@ -78,14 +74,56 @@
 # names_set3 = names_set.union(names_set2)
 # # print(names_set3)
 
-
 # for name in names_set3:
 #     print(name)
 
-names_set1 = {"Mama", "Tata", "Dziadek"}
-names_set2 = {"Ciocia", "Kuzynka", "Mama", "Tata"}
+# names_set1 = {"Mama", "Tata", "Dziadek", "Babcia"}
+# names_set2 = {"Ciocia", "Kuzynka", "Mama", "Tata", "Dziadek"}
 
-names_set3 = names_set1.update(names_set2)
-# print(names_set1)
+# # names_set3 = names_set1.update(names_set2)
+# # print(names_set3)
 
-names_set3 = names_set1.difference(names_set2)
+# # names_set3 = names_set1.difference(names_set2)
+# # print(names_set3)
+
+# # names_set3 = names_set1.difference(names_set2)
+# names_set3 = names_set1.symmetric_difference(names_set2)
+# names_set3.clear()
+
+# for name in names_set3:
+#     print(name)
+# names_list = ["Gnome", "Bronco", "Brawo"]
+# names_list.extend(names_set2)
+# print(names_list)
+
+
+##########  Dictionary  ##########
+
+countries_and_capitals = {"Poland": "Warsaw", "Germany": "Berlin", "Russia": "Moscow"}
+countries_and_capitals["Czechia"] = "Prague"
+
+# print(countries_and_capitals)
+
+# for country, capital in countries_and_capitals.items():
+#     print(country + "-" + capital)
+
+# print(countries_and_capitals["Poland"])
+# print(countries_and_capitals.get('Poland'))
+
+countries_and_capitals["Poland"] = "Cracow"
+# print(countries_and_capitals.pop("Germany"))
+# print(countries_and_capitals)
+# print(countries_and_capitals.popitem())
+
+if "Poland" in countries_and_capitals:
+    print("jest")
+elif"":
+    print("nie_ma")
+else:
+    print("dupa")
+
+if "Germany" in countries_and_capitals:
+    print("jest")
+else:
+    print("niema")
+
