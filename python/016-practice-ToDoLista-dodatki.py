@@ -25,14 +25,14 @@ def delete_task():
         print("Skasowano zadanie!")
 
 def save_tasks_to_file():
-        file = open("tasks.txt", "w")
+        file = open("tasks-dodatki.txt", "w")
         for task in tasks:
             file.write(task+"\n")
         file.close()
     
 def load_tasks_from_file():
     try:
-        file = open("tasks.txt")
+        file = open("tasks-dodatki.txt")
 
         for line in file.readlines():
             tasks.append(line.strip())
